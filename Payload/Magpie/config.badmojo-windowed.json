@@ -1,0 +1,34 @@
+{
+  "debugMode": false,
+  "showNotifyIcon": true,
+  "alwaysRunAsAdmin": false,
+  "autoCheckForUpdates": false,
+  "allowScalingMaximized": true,
+  "countdownSeconds": 0,
+  "scalingModes": [
+    {
+      "name": "Bad Mojo Lanczos",
+      "effects": [
+        {"name":"Lanczos","scalingType":1,"scale":{"x":1.0,"y":1.0}}
+      ]
+    }
+  ],
+  "profiles": [
+    {"scalingMode":0,"captureMethod":2},
+    {
+      "name":"Bad Mojo",
+      "packaged":false,
+      "pathRule":"BADMOJO.EXE",
+      "classNameRule":"LittleCRT",
+      "autoScale":1,
+      "scalingMode":0,
+      "captureMethod":2,
+      "3DGameMode":false,
+      "cursorScaling":6,
+      "croppingEnabled":true,
+      "cropping":{"left":0,"top":60,"right":0,"bottom":60},
+      "frameRateLimiterEnabled":true,
+      "maxFrameRate":60
+    }
+  ]
+}

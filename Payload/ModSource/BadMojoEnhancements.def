@@ -1,0 +1,3 @@
+LIBRARY BadMojoEnhancements
+EXPORTS
+    InitializeEnhancements=_InitializeEnhancements@4
